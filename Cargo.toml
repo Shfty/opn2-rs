@@ -1,0 +1,18 @@
+[workspace]
+
+members = [
+    "dirty-guard",
+    "opn2",
+    "libnuked-opn2-sys",
+    "opn2-rs",
+    "opn2-nuked",
+    "opn2-cpal",
+    "opn2-trait",
+    "opn2-driver",
+    "opn2-test",
+    "opn2-tracker",
+    "vgm",
+]
+
+[profile.release]
+debug = true

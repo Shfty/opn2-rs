@@ -1,0 +1,11 @@
+[package]
+name = "libnuked-opn2-sys"
+version = "0.1.0"
+authors = ["Josh Palmer <jpalmerwatkins@gmail.com>"]
+edition = "2018"
+
+[build-dependencies]
+cc = "1.0.62"
+
+[dependencies]
+bitflags = "1.2.1"

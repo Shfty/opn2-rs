@@ -1,0 +1,28 @@
+#[repr(u32)]
+#[derive(Debug, Copy, Clone, PartialEq, Eq, PartialOrd, Ord, Hash)]
+pub enum Address {
+    Invalid,
+    LsiTest1 = 0x21,
+    Lfo = 0x22,
+    TimerAMsb = 0x24,
+    TimerALsb = 0x25,
+    TimerB = 0x26,
+    TimersAndCh3Mode = 0x27,
+    KeyOnOff = 0x28,
+    DacData = 0x2A,
+    DacEnable = 0x2B,
+    LsiTest2 = 0x2C,
+    DetuneAndMultiple = 0x30,
+    TotalLevel = 0x40,
+    RateScaleAndAttackRate = 0x50,
+    FirstDecayAndAmp = 0x60,
+    SecondaryDecayRate = 0x70,
+    SecondaryAmpAndRelease = 0x80,
+    SsgEg = 0x90,
+    Fnum = 0xA0,
+    BlockFreq = 0xA4,
+    Ch3Fnum = 0xA8,
+    Ch3BlockFreq = 0xAC,
+    FeedbackAndAlgorithm = 0xB0,
+    StereoAndLfoSens = 0xB4,
+}

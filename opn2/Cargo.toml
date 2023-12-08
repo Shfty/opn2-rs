@@ -1,0 +1,8 @@
+[package]
+name = "opn2"
+version = "0.1.0"
+authors = ["Josh Palmer <jpalmerwatkins@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+bitflags = "1.2.1"

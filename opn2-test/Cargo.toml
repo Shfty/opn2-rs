@@ -1,0 +1,15 @@
+[package]
+name = "opn2-test"
+version = "0.1.0"
+authors = ["Josh Palmer <jpalmerwatkins@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+opn2 = { path = "../opn2" }
+opn2-cpal = { path = "../opn2-cpal" }
+opn2-nuked = { path = "../opn2-nuked" }
+opn2-rs = { path = "../opn2-rs" }
+opn2-trait = { path = "../opn2-trait" }
+opn2-driver = { path = "../opn2-driver" }
+vgm = { path = "../vgm" }
+cpal = "0.15.2"

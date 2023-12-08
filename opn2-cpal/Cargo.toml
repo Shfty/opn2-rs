@@ -1,0 +1,12 @@
+[package]
+name = "opn2-cpal"
+version = "0.1.0"
+authors = ["Josh Palmer <jpalmerwatkins@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+opn2-driver = { path = "../opn2-driver" }
+opn2-trait = { path = "../opn2-trait" }
+cpal = "0.15.2"

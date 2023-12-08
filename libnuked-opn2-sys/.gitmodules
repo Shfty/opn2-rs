@@ -1,0 +1,3 @@
+[submodule "nuked-opn2"]
+	path = nuked-opn2
+	url = https://github.com/nukeykt/Nuked-OPN2.git
